@@ -1,0 +1,128 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  /* width: 100%; */
+  background-color: rgb(222, 222, 222);
+  color: white;
+  text-align: center;
+}
+.leftt {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 0.5em;
+}
+.borderop {
+  border: 20px red solid;
+}
+.cop {
+  margin-bottom: 80px;
+}
+
+@media (max-width: 575.98px) {
+  .cif {
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+/* @media (max-width: 638px) {
+  .csw {
+    z-index: 1000;
+    position: absolute;
+    border: 2px red solid;
+  }
+} */
+.pop {
+  align-items: center;
+}
+.alc {
+  text-align: center;
+}
+@media (max-width: 1399.98px) {
+}
+
+/* @include media-breakpoint-down(sm) {
+}
+@media (min-width: 768px) and (max-width: 1199.98px) {
+} */
+/* .csw {
+  z-index: 1000;
+  position: absolute;
+  border: 2px red solid;
+} */
+/* @media only screen and (max-width: 600px) {
+    .noisy{
+        z-index: 5000;
+        position: sticky;
+        border: 2px red solid;
+        display: none; 
+      }
+} */
+.diss1 {
+  pointer-events: none;
+  opacity: 0.4;
+}
+.doubleunderline {
+  text-decoration: underline;
+  border-bottom: 1px solid #000;
+}
+.numberr {
+  margin-bottom: 0px;
+  margin-top: 2px;
+  font-size: smaller;
+}
+
+.foot {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: #ccc;
+}
+.button4 {
+  padding: 10px 60px;
+}
+.ptop {
+  padding-top: 7px;
+}
+.popw{
+  margin-left: 5px;
+}
+@media only screen and (min-width: 992px) {
+  .pptop {
+    padding-top: 80px;
+  }
+  .textareaa{
+    width: 500px;
+  }
+  .myfutto{
+    padding-left: 10%;
+  }
+}
+::-webkit-input-placeholder {
+  text-align: center;
+}
+.form-content input[type=number], .form-content input[type=password], .form-content input[type=email], .form-content select {
+  width: 100%;
+  padding: 9px 20px;
+  text-align: left;
+  border: 0;
+  outline: 0;
+  border-radius: 6px;
+  background-color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+  color: #8D8D8D;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  margin-top: 16px;
+}
+.cards{
+  text-align: center;
+  border-bottom : 5px grey solid;
+}
+.problem {text-align:center}
+.enclose {position:fixed;bottom:0px;width:100%;}

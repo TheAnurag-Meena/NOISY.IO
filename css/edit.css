@@ -1,0 +1,14 @@
+.container {
+  width: 500px;
+  clear: both;
+}
+
+.container input {
+  width: 100%;
+  clear: both;
+}
+.cod{
+  background-color: #eee;
+  border-radius: 6%;
+  border:1px black solid;
+}

@@ -1,0 +1,14 @@
+.form-holderr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   /* // min-height: 60vh; */
+}
+.form-controll{
+    border: 3px solid #0d6efd;
+}
+.popat{
+    border: 3px solid #0d6efd;
+}

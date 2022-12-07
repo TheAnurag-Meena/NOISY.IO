@@ -1,0 +1,9 @@
+RewriteEngine on 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME}\.php -f 
+RewriteRule ^(.*)$ $login.php
+
+ErrorDocument 404 /FREE-KEY-2.0/Pages/not-found.php
+
+
+
